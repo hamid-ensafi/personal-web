@@ -1,0 +1,234 @@
+@media screen and (max-width:576px) {
+    .header-pc {
+        width: 50%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        position: absolute;
+        transition-duration: .5s;
+        transition-property: transform;
+    }
+
+    .image-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .image-header>figure {
+        width: 50%;
+    }
+
+    .web-content>div {
+        padding: 0;
+    }
+    .text-title{
+        margin: 50px 0 ;
+    }
+
+    .text-title-content>h5{
+        font-size: 10px;
+        left: 0;
+    }
+    .text-title-content>h2{
+        font-size: 2.2rem !important;
+    }
+    .General-style {
+        padding: 20px !important;
+        border: 1px solid #555;
+
+    }
+    .image-about{
+        margin-bottom: 2rem;
+        perspective: 1000px  !important;
+
+    } 
+    .box-clients {
+        margin-bottom: 1rem;
+    }
+    .box-services{
+        margin-bottom: 1rem;
+
+    }
+    .box-fun-fact {
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+    .Experience{
+        margin-bottom: 2rem ;
+    }
+    .title-text-project>h5{
+        font-size: .8rem;
+    }
+    
+    .adress-content{
+        padding: 1rem 1rem 1rem 0rem ;
+    }
+    .address-contact>p{
+        margin-top:1.7 !important ;
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media screen and (min-width:577px) {
+    .header-pc {
+        width: 50%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        z-index: 50;
+        position: absolute;
+
+        transition-duration: .5s;
+        transition-property: transform;
+    }
+
+    .image-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .image-header>figure {
+        width: 50%;
+    }
+
+    .web-content>div {
+        padding: 0;
+    }
+    .text-title{
+        margin: 50px 0 !important;
+    }
+
+    .text-title-content>h5{
+        font-size: 10px;
+        left: 0;
+    }
+    .text-title-content>h2{
+        font-size: 2.2rem !important;
+    }
+    .General-style {
+        padding: 50px;
+        border: 1px solid #555;
+
+    }
+    .image-about{
+        margin-bottom: 2rem;
+        perspective: 2000px ;
+
+    } 
+    .box-clients {
+        margin-bottom: 1rem;
+    }
+    .box-services{
+        margin-bottom: 1rem;
+
+    }
+    .box-fun-fact {
+        width: 48%;
+        margin-bottom: 1.5rem;
+    }
+    .Experience{
+        margin-bottom: 2rem ;
+    }
+    .title-text-project>h5{
+        font-size: .8rem;
+    }
+    .adress-content{
+        padding: 1rem 1rem 1rem 0rem ;
+    }
+    .address-contact>p{
+        margin-top:1.7 !important ;
+        margin-bottom: 1rem !important;
+    }
+   
+}
+
+@media screen and (min-width:768px) {
+    .image-about{
+        perspective: 800px;
+    } 
+    .title-text-project>h5{
+        font-size: 1.5rem;
+    }
+    .header-pc {
+        width: 25%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        z-index: 50;
+        position: absolute;
+
+        transition-duration: .5s;
+        transition-property: transform;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .header-pc {
+        width: 150px;
+        height: 100%;
+        position: relative;
+        top: 0;
+        transition: none;
+        transform: translateX(0) !important;
+
+
+    }
+
+    .image-header {
+        display: block;
+
+    }
+
+    .image-header>figure {
+        width: 100%;
+    }
+
+    .web-content>div {
+        padding: 20px 5%;
+
+    }
+    .text-title{
+        margin-bottom: 60px!important;
+        margin-top:0 !important;
+    }
+
+    .text-title-content>h5{
+        font-size: 14px;
+        left: auto;
+    }
+    .text-title-content>h2{
+        font-size: 60px !important;
+    }
+    .General-style {
+        padding: 50px;
+        border: none;
+    }
+
+    .image-about{
+        margin-bottom:0;
+    } 
+    .box-clients {
+        margin-bottom: 0;
+    }
+    .box-services{
+        margin-bottom: 0;
+
+    }
+    .box-fun-fact{
+        width: 24%;
+    }
+    .Experience{
+        margin-bottom: 0 ;
+    }
+    .address-contact>p{
+        margin:1.7 !important ;
+    }
+}
+
+@media screen and (min-width:1200px) {}
+
+@media screen and (min-width:1400px) {}
