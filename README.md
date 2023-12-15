@@ -1,7 +1,8 @@
 🏃‍♂️**this is my personal website**
 <h3 align="center"> 📸 Gallery </h3>
 
-![personal4](https://github.com/hamid-ensafi/personal-web/assets/129867758/c2f6617c-899d-438c-a46a-504419b22be4)
+![personal4](https://github.com/hamid-ensafi/personal-web/assets/129867758/17a4c340-2c8d-4022-826b-7ea39d0edebf)
+
 
 
 
